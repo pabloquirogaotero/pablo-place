@@ -1,10 +1,22 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
   --font-serif: "EB Garamond", Georgia, serif;
+
+  --color-cream: #F4EFE6;
+  --color-cream-dark: #EAE3D6;
+  --color-ink: #1C1812;
+  --color-ink-mid: #4A4035;
+  --color-ink-light: #8C7E6E;
+  --color-accent: #C0392B;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
+  background-color: var(--color-cream);
   font-family: var(--font-sans);
 }
